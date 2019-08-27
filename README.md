@@ -1,8 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with 
 
 ## Aplicação de Publicação de Eventos
 
-Link do curso: 
+Link do curso: :link: [clique aqui!](https://github.com/facebook/create-react-app).
 
 ### `npm start`
 
