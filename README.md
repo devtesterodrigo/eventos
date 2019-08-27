@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Aplicação de Publicação de Eventos
 
-In the project directory, you can run:
+Link do curso: 
 
 ### `npm start`
 
