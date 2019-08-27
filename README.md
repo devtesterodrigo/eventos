@@ -15,6 +15,7 @@ Esta aplicação foi desenvolvida com finalidade de estudos e possui as seguinte
 * [:mag_right:] Pesquisa de eventos para usuários visitantes 
 * [:eyes:] Quantidade de Visualizações de um evento
 * [:camera:] Upload de imagem
+* [:calling:] Layout responsivo (se ajusta ao tamanho da tela)
 
 
 ### Lembrete! :thought_balloon:
@@ -27,7 +28,7 @@ npm install
 E pronto, a pasta node_modules será gerada com os modulos que o projeto utilizar.
 
 
-### `npm start`
+### Iniciar a aplicacão :checkered_flag:
 
 Para rodar a aplicação, execute o comando: <br>
 ```console
