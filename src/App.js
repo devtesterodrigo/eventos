@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { store, persistor } from '../src/store/';
+import { Provider } from 'react-redux';
+import { PersistGate} from 'redux-persist/integration/react';
+
+/*PÁGINAS*/
+import Login from './view/login/';
+import NovoUsuario from './view/usuario-novo/';
+import Home from './view/home/';
+import UsuarioRecuperarSenha from './view/usuario-recuperar-senha/';
+import EventoCadastro from './view/evento-cadastro/';
+import EventoDetalhes from './view/evento-detalhes/';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+      <Router>
+        <Route exact path='/' component={Home} />
+        <Route path='/eventos/:parametro' component={Home} />
+        <Route exact path='/novousuario' component={NovoUsuario} />
+        <Route exact path='/login' component={Login} />
+        <Route exact path='/usuariorecuperarsenha' component={UsuarioRecuperarSenha} />
+        <Route exact path='/eventocadastro' component={EventoCadastro} />
+        <Route path='/eventodetalhes/:id' component={EventoDetalhes} />
+        <Route path='/editarevento/:id' component={EventoCadastro} />
+      </Router>
+      </PersistGate>
+    </Provider>
   );
 }
 
