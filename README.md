@@ -8,13 +8,13 @@ Se você quer criar esta aplicação deste do início e entende-lá, clique no l
 ### O que faz essa aplicacão?
 Esta aplicação foi desenvolvida com finalidade de estudos e possui as seguintes funcionalidades:
 
-*Autenticação de Usuários
-*Recuperação de senha com envio de e-mail automático
-*Cadastro de Usuários
-*Publicação, remoção e pesquisa de eventos para usuários logados.
-*Pesquisa de eventos para usuários visitantes 
-*Quantidade de Visualizações de um evento
-*Upload de imagem
+* [:key:] Autenticação de Usuários
+* [:email:] Recuperação de senha com envio de e-mail automático
+* [:bust_in_silhouette:] Cadastro de Usuários
+* [:tada:] Publicação, remoção e pesquisa de eventos para usuários logados.
+* [:mag_right:] Pesquisa de eventos para usuários visitantes 
+* [:eyes:] Quantidade de Visualizações de um evento
+* [:camera:] Upload de imagem
 
 
 ### `npm start`
