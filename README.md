@@ -4,6 +4,11 @@ Se você quer criar esta aplicação deste do início e entende-lá, clique no l
 
 :link: **Link do curso:**  [clique aqui!](https://github.com/facebook/create-react-app).
 
+
+### O que faz essa aplicacão?
+Esta aplicação foi desenvolvida com finalidade de estudos, e possui as seguintes funcionalidades:
+
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
